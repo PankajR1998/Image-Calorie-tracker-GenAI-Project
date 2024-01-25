@@ -35,7 +35,7 @@ def input_image_setup(uploaded_file):
 # initilizing streamlit application.
 st.set_page_config(page_title="Gemini Health App")
 st.header('Gemini Health App')
-image_url = st.text_input("Paste the Linke of image here:")
+image_url = st.text_input("Paste the Link of image here:")
 # uploaded_file = st.file_uploader("Choose an image...", type=["jpg","jpeg","png"])
 if image_url:
 #     # image = Image.open(str(image_url)
